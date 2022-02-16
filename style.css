@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid {
+    margin: 15px;
+    display: grid;
+    grid-row: 30px 30px 30px;
+}
+
+.grid-item {
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.sign {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.top-bar {
+    margin-bottom: 5px;
+}
+
+.left-bar {
+    margin-right: 5px;
+}
